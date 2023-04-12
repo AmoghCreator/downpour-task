@@ -1,0 +1,16 @@
+#formDiv {
+  display: flex;
+  width: 100%;
+  padding: 2% 0 ;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+}
+
+.msgArea {
+  border : 0.2em solid green;
+  border-radius: 1em;
+  padding: 5%;
+  color: green;
+  background-color: white
+}

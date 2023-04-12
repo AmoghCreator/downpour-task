@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import FormArea from './FormArea.jsx';
+import FormDiv from './FormDiv.jsx';
 
 function App() {
   return (
     <div className="App">
-      <FormArea />
+      <FormDiv/>
     </div>
   );
 }

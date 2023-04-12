@@ -1,0 +1,30 @@
+#form {
+  width : 50vw;
+  background-color: grey;
+  padding: 2em;
+  border-style: solid;
+  border-radius: 1em;
+  border-color: green;
+}
+
+.formInput {
+  width: 100%;
+  display: block;
+  background-color: white;
+  border-radius: 0.5em;
+}
+
+.subBut {
+  position: relative ;
+  right : 0;
+}
+
+  button {
+    width : 100%;
+  }
+@media (max-width : 428px) {
+  #form {
+    width: 70%;
+  }
+
+}

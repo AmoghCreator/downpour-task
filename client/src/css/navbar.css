@@ -1,0 +1,41 @@
+#navbar {
+  display : flex;
+  align-items: center;
+  justify-content: space-between;
+  padding : 0 10% ;
+}
+
+ul {
+  display: flex;
+  gap: 20%;
+  list-style: none;
+} 
+
+.hamb {
+  display: none;
+}
+
+@media (max-width : 428px) {
+  .menuInactive {
+    display: none;
+  }
+  .menuActive {
+    display: block;
+    position: absolute;
+    top:2%;
+    height: 100vh;
+    background-color: white;
+    font-size: 3em;
+    right: 0;
+    padding: 0 10%;
+    z-index: 2;
+  }
+  .hamb {
+    display: block;
+    font-size: 2em;
+  }
+
+  .active {
+    background-color: red;
+  }
+}

@@ -1,10 +1,10 @@
 #formDiv {
   display: flex;
+  justify-content: space-around;
   width: 100%;
   padding: 2% 0 ;
-  justify-content: center;
   align-items: center;
-  background-color: orange;
+background: linear-gradient(0.12turn, #3f87a6, #ebf8e1, #f69d3c);
 }
 
 .msgArea {
@@ -13,4 +13,22 @@
   padding: 5%;
   color: green;
   background-color: white
+}
+
+#tagLine {
+  color: white;
+  font-size: 3em;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+@media (max-width : 428px) {
+  #formDiv {
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  #tagLine {
+    display: none;
+  }
 }

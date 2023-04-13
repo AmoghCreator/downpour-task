@@ -1,6 +1,6 @@
 import {useState} from 'react';
 import {useForm} from 'react-hook-form';
-import { Button , TextField , Select, InputLabel , FormControl, MenuItem} from '@mui/material/';
+import { Button , TextField , Select, InputLabel , FormControl, MenuItem} from '@mui/material';
 import "./css/formArea.css";
 import SubmitMsg from "./SubmitMsg"
 
@@ -42,8 +42,8 @@ function FormArea() {
       <InputLabel id="mm" > Minutes </InputLabel> 
       <Select labelId="mm"  className="formInput" placeholder=" NULL"  {...register("mm" , {required:true})} >
         {
-        hours.map(data => {
-              return <MenuItem value={data}>
+        mins.map(data => {
+              return <MenuItem value={data} sx={{width: "100%"}}>
               {data} </MenuItem>
             })
         }
@@ -57,6 +57,7 @@ function FormArea() {
         Submit
       </Button>
     </form>
+
     </div>
   )
 }

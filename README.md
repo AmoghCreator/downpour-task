@@ -4,9 +4,9 @@ This repo is the completion of task given by Downpour.
 
 To Install this project 
 
-1. first clone this repository
+1. Extract zip into your desired location
 
-2. then navigate to the directory where the repository is cloned
+3. then navigate to the extracted directory
 
 3. change directory to client
 
@@ -15,3 +15,5 @@ To Install this project
 ### 1. type npm i
 
 ### 2. type npm start
+
+the site will startup at http://localhost:3000

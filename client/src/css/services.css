@@ -1,9 +1,40 @@
 :root {
-  text-align: center
+  text-align: center;
+}
+
+#services {
+  padding : 8vh 0;
 }
 
 #serviceGrid {
+  width : 80vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap : 2vw;
+  flex-wrap: wrap;
+  padding : 8vh 0;
+  padding-left: 10vw;
+}
+
+.serviceItem {
+  padding : 5% 0;
+  width : 30%;
+  transition : all 0.5s ease-in;
+  border-radius: 2em;
+}
+
+.serviceItem:hover {
+  background-color: #d9d7d7 ;
+  transition : all 0.5s ease-out;
+}
+
+
+@media (max-width : 482px ) {
+  #services  > h1{
+    font-size: 2em;
+  }
+  .serviceItem > h2 {
+    font-size : 1em;
+  }
 }

@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding : 0 10% ;
+  font-size: 1.5em;
 }
 
 ul {
@@ -16,6 +17,10 @@ ul {
 }
 
 @media (max-width : 428px) {
+
+  #navbar {
+   font-size: 1em;
+  }
   .menuInactive {
     display: none;
   }

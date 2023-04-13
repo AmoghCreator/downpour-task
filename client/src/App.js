@@ -3,6 +3,7 @@ import './App.css';
 import FormDiv from './FormDiv.jsx';
 import Navbar from './Navabar';
 import Services from './Services';
+import Footer from './Footer.jsx'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar/>
       <FormDiv/>
       <Services />
+      <Footer />
     </div>
   );
 }

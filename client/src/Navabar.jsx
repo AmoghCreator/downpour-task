@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 function Navbar() {
 
-  const [hamb , setHamb] = useState(true);
+  const [hamb , setHamb] = useState(false);
   function updateHamb(e) {
     setHamb(hamb => !hamb);
   } 
